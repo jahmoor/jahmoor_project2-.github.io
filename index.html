@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A community expo featuring history displays, safety education, and non-live activities.">
+  <title>American Safety &amp; Sports Expo</title>
+  <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#top">American Expo</a>
+      <nav aria-label="Main navigation">
+        <a href="#activities">Activities</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#registration">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <div class="wrap">
+      <div class="hero">
+        <div>
+          <p class="eyebrow">Community & History & Safety</p>
+          <h1>American <span>Safety</span> &amp; Sports Expo</h1>
+          <p class="hero-copy">
+            A day for curious minds and community members to explore history exhibits,
+            try screen-based games, and learn about responsible safety practices.
+          </p>
+          <div class="notice">
+            <strong>Safety first:</strong> This event features display-only exhibits and
+            non-live activities. Do not bring personal firearms or ammunition. Alcohol
+            is not part of the event.
+          </div>
+        </div>
+        <aside class="hero-art" aria-label="Featured event media">
+          <div class="tenor-gif-embed" data-postid="5729201309425987323" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%">
+            <a href="https://tenor.com/view/wtf-is-a-kilometer-gif-5729201309425987323" target="_blank" rel="noopener noreferrer">View the kilometer GIF on Tenor</a>
+          </div>
+          <p>One word, many miles of confusion.</p>
+        </aside>
+      </div>
+
+      <section id="activities" aria-labelledby="activities-title">
+        <p class="eyebrow">What to expect</p>
+        <h2 class="section-heading" id="activities-title">Explore the expo</h2>
+        <p class="section-intro">
+          Browse educational displays and join friendly, non-live activities. All exhibits
+          are managed by event staff and follow the venue's safety rules.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>History displays</h3>
+            <ul>
+              <li>Historical rifle and pistol exhibits</li>
+              <li>Small-arms history presentations</li>
+              <li>Protective equipment and safety exhibits</li>
+              <li>Armored vehicle display</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Foam-prop showcase</h3>
+            <p>
+              Show off a creative, oversized foam prop in a lighthearted display
+              competition. Props onlyâ€”no functional replicas or weapons.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Digital target game</h3>
+            <p>
+              Try a screen-based target game with no live firearms or projectiles.
+              Take a break with snacks and non-alcoholic refreshments afterward.
+            </p>
+          </article>
+        </div>
+        <p class="safety-note">
+          Activities are subject to venue rules and staff direction. No live-fire
+          competition, personal firearms, ammunition, or alcohol.
+        </p>
+      </section>
+
+      <section id="schedule" aria-labelledby="schedule-title">
+        <p class="eyebrow">Plan your visit</p>
+        <h2 class="section-heading" id="schedule-title">Event schedule</h2>
+        <p class="section-intro">Times are shown in 24-hour format.</p>
+        <div class="table-scroll">
+          <table>
+            <caption>Activities and times</caption>
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>07:00-09:00</td>
+                <td>Foam-prop showcase</td>
+              </tr>
+              <tr>
+                <td>09:00-10:00</td>
+                <td>History exhibits and safety presentations</td>
+              </tr>
+              <tr>
+                <td>10:00-11:00</td>
+                <td>Community break and refreshments</td>
+              </tr>
+              <tr>
+                <td>11:00-12:00</td>
+                <td>Digital target game</td>
+              </tr>
+              <tr>
+                <td>13:00-14:00</td>
+                <td>Closing exhibits and social hour</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section aria-labelledby="terms-title">
+        <p class="eyebrow">Quick guide</p>
+        <h2 class="section-heading" id="terms-title">Key terms</h2>
+        <dl class="terms">
+          <div>
+            <dt>Firearm</dt>
+            <dd>A device designed to launch a projectile; this expo's exhibits are display-only.</dd>
+          </div>
+          <div>
+            <dt>Pickup truck</dt>
+            <dd>A vehicle with an open cargo bed behind the passenger cabin.</dd>
+          </div>
+          <div>
+            <dt>Kilometer</dt>
+            <dd>A metric unit of distance equal to 1,000 meters. Yes, it's a real thing.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="registration" aria-labelledby="registration-title">
+        <p class="eyebrow">Save your spot</p>
+        <h2 class="section-heading" id="registration-title">Event registration</h2>
+        <p class="section-intro">
+          Let us know what you're interested in. This page is a static demo and does not
+          send or store registration details.
+        </p>
+        <form id="registration-form">
+          <div class="form-grid">
+            <label for="name">
+              Full name
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </label>
+            <label for="email">
+              Email address
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Ticket type</legend>
+            <div class="choice-list">
+              <label><input type="radio" name="ticket" value="standard" required> Standard</label>
+              <label><input type="radio" name="ticket" value="vip"> VIP</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Activities of interest</legend>
+            <div class="choice-list">
+              <label><input type="checkbox" name="event" value="foam-showcase"> Foam-prop showcase</label>
+              <label><input type="checkbox" name="event" value="history-exhibits"> History exhibits</label>
+              <label><input type="checkbox" name="event" value="digital-game"> Digital target game</label>
+            </div>
+          </fieldset>
+
+          <div class="form-grid">
+            <label for="country">
+              Country of origin
+              <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="mexico">Mexico</option>
+                <option value="uk">United Kingdom</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label for="requirements">
+              Dietary requirements
+              <textarea id="requirements" name="requirements" rows="3"></textarea>
+            </label>
+          </div>
+          <p class="form-note">Doesnt Actually work</p>
+          <button id="preview-rsvp" type="button">RSVP</button>
+          <p id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">A community event centered on education, exhibits, and safe participation.</div>
+  </footer>
+
+  <script async src="https://tenor.com/embed.js"></script>
+  <script>
+    document.getElementById("preview-rsvp").addEventListener("click", function () {
+      const form = document.getElementById("registration-form");
+      if (!form.reportValidity()) {
+        return;
+      }
+      document.getElementById("form-message").textContent =
+        "The Form doesnt work really";
+    });
+  </script>
+</body>
+</html>
+
